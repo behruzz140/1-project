@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+p {
+  margin-top: 3px;
+  color: #7d7987;
+  font-family: Mulish;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+button {
+  margin-top: 45px;
+  width: 200px;
+  height: 56px;
+  font-size: 18px;
+  flex-shrink: 0;
+  border-radius: 55px;
+  background: #458ff6;
+  color: #fff;
+  transition: all 0.4 ease;
+border-color: #458ff6;
+}
+button:hover{
+    background-color: #fff;
+color: #458ff6;
+cursor: pointer;
+}
+
+.hero {
+  background-image: url(images/element.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame {
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+}
+.rasm1 {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  width: 350px;
+  height: 354px;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.rasm1:hover{
+   
+    cursor: pointer;
+    transform: scale(110%);
+    background-color: #e9ebee;
+
+}
+
+
+.frame::hove {
+  border: 1px solid;
+}
+
+.flex1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  justify-items: center;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.btn_container {
+  margin-top: 71px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-1 {
+  background-color: #fff;
+  color: #458ff6;
+  border-radius: #458ff6;
+  margin: 0 auto;
+  font-size: 18px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+transition: all 0.3s ease;
+}
+
+h2 {
+  margin-top: 19px;
+}
+
+img {
+  margin-top: 54px;
+  margin-left: 37px;
+}
+
+.btn-1:hover {
+  background-color: #458ff6;
+  color: #fff;
+  cursor: pointer;
+}
+
+.gorilla{
+    margin-left: 37px;
+}
+
+.text-w {
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+} 
+.text-w a {
+    text-decoration: none;
+}
